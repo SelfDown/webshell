@@ -1,5 +1,5 @@
 # webshell 需要搭配collect后台
-
+支持 shell 、文件管理、录屏回放
 ## 安装
 
 ```
