@@ -1,0 +1,29 @@
+.ag-theme-balham {
+    --ag-header-height: 32px;
+    --ag-wrapper-border-radius: 2px;
+}
+.ag-theme-balham .ag-header {
+    font-family: cursive;
+}
+.ag-theme-balham .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 16px;
+}
+.ag-theme-balham .ag-header-cell {
+    font-size: 14px;
+}
+.sftp-folder{
+    padding: 2px 6px;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.sftp-file{
+    padding: 0px 6px;
+
+}
+.sftp-folder:hover{
+    background: #00000022;
+}
+.file-icon{
+    margin-right: 6px
+}

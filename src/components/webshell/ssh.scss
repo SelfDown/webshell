@@ -1,0 +1,161 @@
+
+.cxd-TreeControl {
+  border: none !important;
+}
+.ant-tabs-nav-list{
+  padding-top: 4px;
+  padding-left: 12px;
+}
+.ant-tabs-top >.ant-tabs-nav{
+  margin: 0px;
+  z-index: 2;
+}
+.ant-tabs-card.ant-tabs-small.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab {
+  border-radius: 2px 2px 0 0;
+}
+.ant-tabs-card.ant-tabs-small >.ant-tabs-nav .ant-tabs-tab {
+  padding: 2px 10px 0px 10px;
+}
+.ant-tabs-top >.ant-tabs-nav::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-bottom: 2px solid #008ae1;
+  content: '';
+  margin-bottom: -2px;
+}
+.ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active{
+  color: white;
+  background: #008ae1 !important;
+  .ant-tabs-tab-remove{
+    color: white;
+  }
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white;
+}
+
+.ant-tabs-card >.ant-tabs-nav .ant-tabs-tab{
+  border: 1px solid #bbbbbb;
+  border-bottom: none;
+  background: white;
+}
+.ant-tabs-nav-wrap{
+  background: #e5e5e5;
+}
+.ant-tabs .ant-tabs-content {
+  height: 100%;
+}
+.ant-tabs .ant-tabs-tabpane {
+  height: 100%;
+}
+
+.ant-layout .ant-layout-sider-trigger {
+  position: relative;
+
+}
+.ant-input{
+  border-radius: 2px;
+}
+.ant-input-affix-wrapper{
+  border-radius: 2px;
+}
+.ant-btn{
+  border-radius: 4px;
+}
+.ant-modal .ant-modal-content{
+  border-radius: 4px;
+}
+.ant-select-single .ant-select-selector{
+  border-radius: 2px;
+}
+.ant-select-dropdown{
+  border-radius: 2px;
+}
+.ant-modal .ant-modal-content{
+  padding: 0px 0px 20px 0px;
+  border-radius: 8px;
+}
+.ant-modal .ant-modal-header{
+  padding-top: 0px;
+  overflow:hidden;
+}
+
+.ant-modal .ant-modal-body{
+  padding: 14px 24px 0px 14px
+}
+
+.history-dialog{
+  .ant-modal .ant-modal-body{
+    padding: 0px 24px
+  }
+}
+.Resizer {
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+.content-none{
+  padding: 100px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 100%;
+  border-left: 1px solid #d7d7d7;
+}
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+.panel{
+  width: 100%;
+  height: 100%;
+
+}
+.panel-content{
+  height: 100%;
+
+  overflow: hidden;
+}
+.ant-tabs-tab-remove{
+  padding: 2px 4px;
+}
