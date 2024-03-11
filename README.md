@@ -1,14 +1,10 @@
-# amis React 初始项目
+# webshell 需要搭配collect后台
 
-## 使用方法
+## 安装
 
 ```
 npm i
-npm run server
 ```
-
-要等几十秒
-
 ## vite
 
 ```
