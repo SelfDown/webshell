@@ -3,39 +3,14 @@ import styles from './ssh.module.scss'
 import SSHTerminal, {TerminalProps} from "./SSHTerminal";
 import Aside from "./aside/aside"
 import './ssh.scss'
-import { ConfigProvider, Layout, Tabs,Input,InputRef ,Form} from 'antd';
+import {Button, ConfigProvider, Layout, Tabs,Input,InputRef ,Form} from 'antd';
 import zhCN from "antd/lib/locale/zh_CN"
 import SftpTerm ,{SftpProps}from "./SftpTerm";
-// import { cookies } from "next/headers";
-// import SplitPane from 'react-split-pane';
 import {Item, Menu, useContextMenu} from "react-contexify";
 
 import "react-contexify/dist/ReactContexify.css";
 import {Panel, PanelGroup, PanelResizeHandle,} from "react-resizable-panels";
-import any = jasmine.any;
-//  function Example() {
-//     const refs = useRef();
-//
-//     useEffect(() => {
-//         const groupElement = getPanelGroupElement("group");
-//         const leftPanelElement = getPanelElement("left-panel");
-//         const rightPanelElement = getPanelElement("right-panel");
-//         const resizeHandleElement = getResizeHandleElement("resize-handle");
-//
-//         // If you want to, you can store them in a ref to pass around
-//         // @ts-ignore
-//         refs.current = {
-//             groupElement,
-//             leftPanelElement,
-//             rightPanelElement,
-//             resizeHandleElement,
-//         };
-//     }, []);
-//
-//     return (
-//
-//     );
-// }
+import CollectHeader from "./header/Header";
 const {Header, Footer, Sider, Content} = Layout;
 const headerStyle: React.CSSProperties = {
     color: '#fff',
@@ -44,6 +19,7 @@ const headerStyle: React.CSSProperties = {
     lineHeight: '44px',
     backgroundColor: '#4096ff',
 };
+
 const siderStyle: React.CSSProperties = {
     backgroundColor: '#fafafa',
 };
@@ -465,7 +441,16 @@ const SSHComponent = () => {
         <>
             <ConfigProvider locale={zhCN}>
                 <Layout style={layoutStyle}>
-                    <Header style={headerStyle}>COLLECT</Header>
+                    <Header style={headerStyle}>
+                        <CollectHeader></CollectHeader>
+                        {/*COLLECT*/}
+                        {/*<div style={rightTool}>*/}
+                        {/*    <Button*/}
+                        {/*        icon={<LoginOutlined/> }*/}
+                        {/*        style={loginBtn}*/}
+                        {/*        type="text">登陆</Button>*/}
+                        {/*</div>*/}
+                    </Header>
                     <Layout>
                         <Sider collapsible
                                onCollapse={onCollapse}
